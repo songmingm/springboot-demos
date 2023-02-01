@@ -1,0 +1,25 @@
+
+server:
+  port: 3080
+spring:
+  application:
+    name: minio-upload-api
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://101.43.217.193:3306/fanta?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: mmsong
+    password: QWEASDZXC123!@#
+
+#mybatis-plus
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      logic-delete-field: deleted
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+
