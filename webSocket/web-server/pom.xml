@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>org.example</groupId>
-    <artifactId>webSocket</artifactId>
+    <artifactId>web-server</artifactId>
     <version>1.0-SNAPSHOT</version>
     <description>websocket测试</description>
 
